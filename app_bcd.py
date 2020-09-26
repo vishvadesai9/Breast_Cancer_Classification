@@ -348,7 +348,10 @@ def main():
                 st.write("Precision: ", precision_score(y_test, y_pred, labels=class_names).round(2))
                 st.write("Recall: ", recall_score(y_test, y_pred, labels=class_names).round(2))
                 plot_metrics(metrics)          
-                
+    
+    st.sidebar.subheader("ABOUT")
+    st.sidebar.write('By: Vishva Desai')
+    st.sidebar.write("Github: https://github.com/vishvadesai9")            
     
             
     
