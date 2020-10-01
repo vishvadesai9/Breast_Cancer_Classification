@@ -127,7 +127,7 @@ def main():
                 spine.set_visible(False)
 
             plt.xticks([0,1,2,3], ['Malignant\nTraining', 'Benign\nTraining', 'Malignant\nTest', 'Benign\nTest'], alpha=0.8);
-            plt.title('Training and Test accuracies Accuracies for Malignant and Benign Cells', alpha=0.8)
+            plt.title('Training and Test Accuracies for Malignant and Benign Cells', alpha=0.8)
             ax.xaxis.set_tick_params(length=0)
             ax.yaxis.set_tick_params(length=0)
             ax.figure.savefig('file1.png')
